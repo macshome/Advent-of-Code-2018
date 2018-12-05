@@ -19,4 +19,5 @@ let findRepeatedFrequency = {(_ inputArray: [Int]) -> Int in
 }
 
 print("The final calculated frequency is: \(frequencyInput.reduce(0,+))")
+
 print("The first repeated frequency is: \(findRepeatedFrequency(frequencyInput))")
